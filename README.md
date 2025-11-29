@@ -1,4 +1,4 @@
-# otp-runner
+# plasma-runner-otp
 This KRunner plugin allows you to generate Time-based One-Time Passwords (TOTP) directly from your KDE Plasma desktop. It's a simple way to access your OTPs for two-factor authentication (2FA).
 
 OTP secrets are stored in KWallet under the default wallet which is "kdewallet" in a folder named "OTP Keys".
@@ -6,10 +6,10 @@ OTP secrets are stored in KWallet under the default wallet which is "kdewallet" 
 Although it's a python plugin, it won't be running until you use it and will automatically exit after two minutes of inactivity, so don't worry about the memory usage.
 
 **Note**:  
-The `main` branch doesn't support Plasma 5 anymore, if you're still using Plasma 5, please go to branch [plasma-5](https://github.com/beavailable/otp-runner/tree/plasma-5).
+The `main` branch doesn't support Plasma 5 anymore, if you're still using Plasma 5, please go to branch [plasma-5](https://github.com/beavailable/plasma-runner-otp/tree/plasma-5).
 
 ## Screenshot
-![img](https://github.com/beavailable/otp-runner/blob/main/screenshot.gif)
+![img](https://github.com/beavailable/plasma-runner-otp/blob/main/screenshot.gif)
 
 ## Requirements
 ```bash
@@ -28,8 +28,8 @@ xclip
 
 ## Installation
 ```bash
-git clone https://github.com/beavailable/otp-runner
-cd otp-runner/
+git clone https://github.com/beavailable/plasma-runner-otp
+cd plasma-runner-otp/
 ./install.sh
 ```
 After the installation, you'll get a KRunner plugin and an `otp` command for you to use in terminal.
