@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build
+	mkdir build; \
+	cp otp.py build/otp; \
+	cp otp.svg build/; \
+	cp plasma-runner-otp.desktop build/; \
+	cp com.github.otp.service build/
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_install build/otp usr/bin/
+	dh_install build/otp.svg usr/share/icons/
+	dh_install build/plasma-runner-otp.desktop usr/share/krunner/dbusplugins/
+	dh_install build/com.github.otp.service usr/share/dbus-1/services/
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build

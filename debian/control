@@ -1,0 +1,20 @@
+Source: plasma-runner-otp
+Section: kde
+Priority: optional
+Maintainer: beavailable <beavailable@proton.me>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Homepage: https://github.com/beavailable/plasma-runner-otp
+
+Package: plasma-runner-otp
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ kwallet6,
+ python3:any,
+ python3-gi,
+Suggests:
+ wl-clipboard | xclip,
+Description: An OTP generator
