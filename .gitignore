@@ -1,5 +1,8 @@
-debian/plasma-runner-otp*
-debian/debhelper*
-debian/.debhelper*
+debian/plasma-runner-otp/
+debian/*.log
+debian/*.substvars
+debian/*.debhelper
+debian/debhelper-build-stamp
 debian/files
+debian/tmp/
 build/
