@@ -28,7 +28,7 @@ wl-clipboard
 xclip
 ```
 
-### Debian
+### Debian & Ubuntu
 Install via the OBS repo (see [obs-repo](https://github.com/beavailable/obs-repo) for setup).
 
 ### Other Distros
