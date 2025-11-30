@@ -11,7 +11,9 @@ The `main` branch doesn't support Plasma 5 anymore, if you're still using Plasma
 ## Screenshot
 ![img](https://github.com/beavailable/plasma-runner-otp/blob/main/screenshot.gif)
 
-## Requirements
+## Installation
+
+### Requirements
 ```bash
 # for Debian
 sudo apt install python3-gi
@@ -26,7 +28,10 @@ wl-clipboard
 xclip
 ```
 
-## Installation
+### Debian
+Install via the OBS repo (see [obs-repo](https://github.com/beavailable/obs-repo) for setup).
+
+### Other Distros
 ```bash
 git clone https://github.com/beavailable/plasma-runner-otp
 cd plasma-runner-otp/
@@ -35,6 +40,10 @@ cd plasma-runner-otp/
 After the installation, you'll get a KRunner plugin and an `otp` command for you to use in terminal.
 
 ## Uninstallation
+```bash
+sudo apt autopurge plasma-runner-otp
+```
+or
 ```bash
 ./uninstall.sh
 ```
