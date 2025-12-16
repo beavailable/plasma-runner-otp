@@ -9,7 +9,7 @@ Although it's a python plugin, it won't be running until you use it and will aut
 The `main` branch doesn't support Plasma 5 anymore, if you're still using Plasma 5, please go to branch [plasma-5](https://github.com/beavailable/plasma-runner-otp/tree/plasma-5).
 
 ## Screenshot
-![img](https://github.com/beavailable/plasma-runner-otp/blob/main/screenshot.gif)
+![img](https://raw.githubusercontent.com/beavailable/plasma-runner-otp/refs/heads/main/screenshot.gif)
 
 ## Installation
 
