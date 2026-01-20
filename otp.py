@@ -213,7 +213,7 @@ class OTPApplication(Gio.Application):
             key = self._read_otp_key(args[1])
             if key:
                 self._value = totp(key)
-                return [('copy', f'{self._value[0]}****{self._value[-1]}', 'otp', 100, 1.0, {})]
+                return [('copy', self._value, 'otp', 100, 1.0, {})]
             else:
                 return unknown_result
         if len(args) == 3:
