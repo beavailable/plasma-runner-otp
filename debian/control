@@ -17,4 +17,6 @@ Depends:
  python3-gi,
 Suggests:
  wl-clipboard | xclip,
+Conflicts:
+ otp,
 Description: An OTP generator
